@@ -6,9 +6,7 @@ For this project, we as web developing, boot camp students, wanted to create a w
 ## Usage
 This work day scheduler allows a user to put different tasks they need to do in timeslots from 9am-5pm in the day. The user is then able to save those tasks and through local storage can see their saved tasks each time they open the app. The app is able to show you through color which time slots are in the present, past, or future. Also, the app displays the current date as well each time the app is opened.
 
-![ScreenShot](assets/images/questions.png)
-![ScreenShot](assets/images/end-game.png)
-![ScreenShot](assets/images/high-scores.png)
+![ScreenShot](assets/images/adding-todos.png)
 
 
 ## Credits
@@ -21,6 +19,6 @@ Html, CSS, JavaScript
 For any questions, please reach out by creating an issue.
 
 ## Deployment Section
+https://brianguthrie88.github.io/work-day-scheduler/
 
-
-![ScreenShot](assets/images/main-page.png)
+![ScreenShot](assets/images/homepage.png)

@@ -6,7 +6,6 @@ $(function () {
   //these are the variables that are being called throughout the code of elements in the html
   var currentDayEl = $('#currentDay');
   var saveBtnEL = $('.saveBtn');
-  var textAreaEl = $('.description');
   var hour9El = $('#hour-9');
   var hour10El = $('#hour-10');
   var hour11El = $('#hour-11');
@@ -16,8 +15,9 @@ $(function () {
   var hour3El = $('#hour-3');
   var hour4El = $('#hour-4');
   var hour5El = $('#hour-5');
+  
 
-
+  
   //this function reads items from storage and puts them back into objects so that they can be easily iterated through for displaying to the page
   function readItemsFromStorage() {
     var items = localStorage.getItem('items');
@@ -45,7 +45,6 @@ $(function () {
       var items = readItemsFromStorage();
       items.push(newItem);
       saveItemsToStorage(items);
-      console.log(localStorage);
   }
 
   //this funtion is used to get the items from and then paste them to the page when the app is reopened
